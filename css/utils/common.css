@@ -1,0 +1,148 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+  outline: none;
+}
+
+​img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:active,
+button:focus {
+  outline: none;
+}
+.hidden {
+  overflow: hidden;
+}
+.invisible-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+.transition {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.main-title {
+  font-size: 2rem;
+  color: var(--main-text-color);
+  font-weight: 300;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  text-transform: uppercase;
+}
+.main-title::after {
+  display: block;
+  content: '';
+  background-image: url('../../img/title-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  background-size: contain;
+  left: 50%;
+  bottom: -2rem;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  width: 150%;
+  height: 5rem;
+}
+.wrapper {
+  background-image: url('../../img/main-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+.top-border {
+  border-top: 0.1rem solid var(--border-top-color);
+}
+.wrap .wrapper {
+  background-image: linear-gradient(
+    to bottom,
+    #07080d,
+    #141821,
+    #1a2534,
+    #1e3348,
+    #1d425c
+  );
+}
+
+@media screen and (min-width: 768px) {
+  .main-title {
+    font-size: 3rem;
+  }
+  .main-title::after {
+    width: 200%;
+  }
+  .main-title {
+    font-size: 4rem;
+  }
+  .main-title::after {
+    bottom: -1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main-title {
+    font-size: 4rem;
+  }
+}

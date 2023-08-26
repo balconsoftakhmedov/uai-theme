@@ -1,0 +1,12 @@
+:root {
+  --main-bg-color: #022741;
+  --main-text-color: #ffffff;
+  --brand-color: #015153;
+  --brand-text-color: #0b4e4d;
+  --highlited-text-color: #12ff00;
+  --border-top-color: #6e7478;
+  --main-color: #07131f;
+  --main-font: 'RobotoCondensed', sans-serif;
+
+  font-size: 62.5%;
+}

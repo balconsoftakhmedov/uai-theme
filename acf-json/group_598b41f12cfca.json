@@ -1,0 +1,43 @@
+{
+    "key": "group_598b41f12cfca",
+    "title": "Brochures",
+    "fields": [
+        {
+            "key": "field_598b41f12e69f",
+            "label": "Brochure File",
+            "name": "case_study_pdf",
+            "type": "file",
+            "instructions": "This is the file the user will download after filling out a form.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1690466375
+}

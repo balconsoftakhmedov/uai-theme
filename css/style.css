@@ -1,0 +1,14 @@
+@import "./utils/normalize.css";
+@import "./utils/fonts.css";
+@import "./utils/vars.css";
+@import "./styles/preloader.css";
+@import "./utils/common.css";
+@import "./libs/BeerSlider.css";
+@import "./libs/tabs.css";
+@import "./libs/swiper-bundle.min.css";
+@import "./styles/header.css";
+@import "./styles/video.css";
+@import "./styles/main.css";
+@import "./styles/pop-up.css";
+@import "./styles/news.css";
+@import "./styles/mapanalyst.css";
