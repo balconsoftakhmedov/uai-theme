@@ -181,6 +181,26 @@
                     "placeholder": ""
                 },
                 {
+                    "key": "field_64e605dc528b0",
+                    "label": "Gallery",
+                    "name": "gallery",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
                     "key": "field_60799d214eb06",
                     "label": "Contact us text",
                     "name": "contact_us_text",
@@ -241,5 +261,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692793134
+    "modified": 1692796413
 }
