@@ -1,0 +1,19 @@
+.stm-h2 h2{
+    color: #FFF;
+text-align: center;
+font-family: Roboto Condensed;
+font-size: 66px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 85.8px */
+}
+
+.stm-h2 h2:before{
+    background: none;
+}
+.stm-h2 h2 span{
+    background: linear-gradient(105deg, #FF4E50 50.52%, #F9D423 100%, #FE4E00 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

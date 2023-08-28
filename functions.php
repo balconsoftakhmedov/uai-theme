@@ -1,4 +1,9 @@
 <?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 function load_style() {
 	wp_register_style( 'style', get_template_directory_uri() . '/css/style.css', array(), 1, 'all' );
 	wp_enqueue_style( 'style' );
@@ -88,10 +93,7 @@ function embed_responsive_autoplay( $code ) {
 
 add_filter( 'embed_oembed_html', 'embed_responsive_autoplay' );
 add_filter( 'video_embed_html', 'embed_responsive_autoplay' );
-?>
 
-
-<?php
 function display_print_r_based_on_ip( $data_to_print ) {
 	$visitor_ip = $_SERVER['REMOTE_ADDR'];
 	if ( $visitor_ip == '213.230.102.124' ) {
@@ -102,5 +104,3 @@ function display_print_r_based_on_ip( $data_to_print ) {
 		exit;
 	}
 }
-
-?>
